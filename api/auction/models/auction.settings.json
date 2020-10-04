@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "auctions",
+  "info": {
+    "name": "Auction"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "AuctionTitles": {
+      "type": "string",
+      "unique": true
+    }
+  }
+}
